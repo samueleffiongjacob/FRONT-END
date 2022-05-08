@@ -1,0 +1,117 @@
+/* login */
+body{
+    background: url(../IMG/BACKGROUND.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px auto;
+}
+.login{
+    background: rgba(10, 10, 10, 0.7);
+    padding: 30px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0px auto;
+}
+form{
+    width: 240px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    }
+    img{
+        /* width: 200px; */
+        height: 150px;
+        background-position: center;
+        /* margin-right: 0px auto;
+        margin: 0px auto; */
+        padding: 50px;
+        width: 150px;
+    }
+    h2{
+        color: whitesmoke;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        width: 240px;
+        margin-left: 10px;
+        margin-right: -10px;
+        font-style: oblique;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+
+    footer{
+       color: whitesmoke;
+        margin-top: 10px;
+        width: 240px;
+        margin-left: 10px;
+        margin-right: -10px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: -20px;
+    }
+    button{
+        background-color: dodgerblue;
+        color: white ; opacity: 10;
+        width: 190px;
+        border-bottom: none;
+        padding: 10px 0;
+        border: none;
+        font-size: 20px;
+        line-height: 25px;
+        cursor: pointer;
+        border-radius: 50;
+    }
+    ::placeholder{
+        color: silver;
+        opacity: 0.9;
+        padding: 10px;
+        text-align: justify;
+        font-weight: lighter;
+        font-style: normal;
+        font-family: monospace;
+        
+        
+    }
+    label{
+        color: white;
+        font-size: 10px;
+        font-family: serif;
+    }
+    input{
+        text-align: center;
+        border-bottom:2px solid green;
+        background-color: rgba(163, 155, 155, 0.144);
+        color: blanchedalmond; opacity: 0.9;
+        transition: border 0.5s ;
+        height: 10px;
+        padding: 16px;
+     }
+    
+    button{
+        background:rgb(83, 83, 83) ;
+       color: white;
+    width: 140px;
+    /* border-bottom: none; */
+    padding: 10px 0;
+    /* border: none; */
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 25;
+    }
+
+    button:hover{
+        background: green;
+        color: greenyellow;
+    }
+    a:hover{
+        background: red;
+        color: whitesmoke;
+    }
+    .a1{
+          background: red;
+        color: whitesmoke;
+    }

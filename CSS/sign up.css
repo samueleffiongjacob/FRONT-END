@@ -1,0 +1,71 @@
+/* sign up way css */
+body{
+    background: url('../IMG/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.signupbox{
+    background: rgba(44, 62, 80, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+}
+
+form{
+    width: 240px; 
+    text-align: center; 
+     margin-top: -10 
+}
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px dotted red;
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0,5s;
+    outline: none;
+    height: 35px;
+    color: maroon;
+    color: opacity 0.9;
+
+}
+button{
+    background-color: white;
+    width: 190px;
+    border-bottom: none;
+    padding: 10px 0;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: blue;
+    color: chocolate;
+}
+h2{
+    color: gold;
+}
+a:hover{
+    color: green;
+    
+}
+.iogin{
+    color: hotpink;
+    
+}
+::placeholder{
+    color: indigo;
+    opacity: 0.9;
+}
+a{
+    color: white;
+}
